@@ -31,3 +31,4 @@
   - 학습 진행 모델 : regnety_040, regnety_064, regnety_080, regnety_120, regnety_160, regnety_320
   - 최종 선택 모델 : regnety_160
   
+# [EDA](EDA.md)
