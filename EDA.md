@@ -151,7 +151,7 @@ plt.show()
 
 
     
-![png](output_6_1.png)
+![png](img/output_6_1.png)
     
 
 
@@ -1614,9 +1614,7 @@ for i, (className, df) in enumerate(anomaly_dict.items()):
 ```
 
 
-    
-![png](output_43_0.png)
-
+![png](img/output_43_0.png)
 
 ## Class별 State 분포
 ```python
@@ -1651,7 +1649,7 @@ plt.legend(df_agg['class'].unique())
 plt.show()
 ```
 
-![png](output_49_0.png)
+![png](img/output_49_0.png)
 
 - 같은 class 내에서 state 간 편차가 매우 심함
 
@@ -1670,7 +1668,7 @@ for i, current_class in enumerate(train_df['class'].unique()):
 plt.show()
 ```
 
-![png](output_56_0.png)
+![png](img/output_56_0.png)
 
 ## Class with state image
 ```python
@@ -1699,18 +1697,18 @@ for current_class in train_df['class'].unique():
     plt.show()
     print('\n\n')
 ```
-![png](output_61_0.png)
-![png](output_61_2.png)
-![png](output_61_4.png)
-![png](output_61_6.png)
-![png](output_61_8.png)
-![png](output_61_10.png)
-![png](output_61_12.png)
-![png](output_61_14.png)
-![png](output_61_16.png)
-![png](output_61_18.png)
-![png](output_61_20.png)
-![png](output_61_22.png)
-![png](output_61_24.png)
-![png](output_61_26.png)
-![png](output_61_28.png)
+![png](img/output_61_0.png)
+![png](img/output_61_2.png)
+![png](img/output_61_4.png)
+![png](img/output_61_6.png)
+![png](img/output_61_8.png)
+![png](img/output_61_10.png)
+![png](img/output_61_12.png)
+![png](img/output_61_14.png)
+![png](img/output_61_16.png)
+![png](img/output_61_18.png)
+![png](img/output_61_20.png)
+![png](img/output_61_22.png)
+![png](img/output_61_24.png)
+![png](img/output_61_26.png)
+![png](img/output_61_28.png)
