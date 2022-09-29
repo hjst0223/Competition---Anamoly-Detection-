@@ -27,7 +27,7 @@
 - Tools : Pytorch, PuTTy(AWS 접속)
 - IDE : Jupyter Notebook
 - 데이터 불균형으로 인해 Data Augmentation 후 stratified k - fold 적용, ensemble 진행
-- Model : efficientnet, regnet 모두 진행하였으나 학습 시간 제한 문제로 상대적으로 시간 대비 성능이 나은 regnet으로 최종 진행
+- Model : efficientnet, regnet 모두 진행하였으나 제한된 GPU 환경으로 인해 상대적으로 시간 대비 성능이 나은 regnet으로 최종 진행
   - 학습 진행 모델 : regnety_040, regnety_064, regnety_080, regnety_120, regnety_160, regnety_320
   - 최종 선택 모델 : regnety_160
   
